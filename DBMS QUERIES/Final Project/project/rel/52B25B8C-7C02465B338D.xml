@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Gradebook Assignment 6" id="52B25B8C-B0BF-0710-ADBF-7C02465B338D" mainViewID="5501FB70-0F8F-73A8-9517-93A8695CBF43">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:33:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Gradebook Assignment 6.sql</fileName>
+<pathName>D:\Documents\Schoolwork\Programming\Database Management</pathName>
+<dbType>14</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

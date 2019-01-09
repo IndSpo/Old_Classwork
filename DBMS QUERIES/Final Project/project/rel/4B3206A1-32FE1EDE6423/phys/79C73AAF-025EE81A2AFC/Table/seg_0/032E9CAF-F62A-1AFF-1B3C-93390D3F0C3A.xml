@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ROOMS" directorySegmentName="seg_0" id="032E9CAF-F62A-1AFF-1B3C-93390D3F0C3A">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 15:03:13 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="room_type" id="507456EA-AD3B-8593-71FE-C3D2589A8180">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 15:03:13 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="room_no" id="734E1EA8-6F6B-5D8D-5125-57794F2902D1">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 15:03:13 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="price" id="E1CD329C-BC12-B653-20BC-750D1CEFD21E">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 15:03:13 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ROOMS_PK" id="1DB18C88-2703-09C4-B70A-D52E17532A74">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 15:03:13 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

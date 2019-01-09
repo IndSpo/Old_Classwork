@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7AC9EF8D-A7D9-693A-1AF4-D3411767CC4B" containerWithKeyObject="20D9B10F-F7BF-0333-9DA6-A41B0D3F95A8" localFKIndex="37933C56-3558-10E3-5375-32A6DF2DF72D" name="FK_CatalogCourses">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>D70FD4FB-AE26-3D7A-75F2-960B13F177A5</importedID>
+<referredTableLongName>Catalog</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7384B04-DC05-87F4-C74C-2FF628ED9FBB</referredTableID>
+<keyObject>065652EF-6790-E08A-C7B2-473F6ED581CB</keyObject>
+<referredKeyID>065652EF-6790-E08A-C7B2-473F6ED581CB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

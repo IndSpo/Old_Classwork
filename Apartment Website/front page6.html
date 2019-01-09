@@ -1,0 +1,60 @@
+<html lang="en" >
+    <head>
+ 
+         <title>Bioteck Property Management</title>
+	 <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1" />
+         <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/propertyManagement.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular-route.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular-animate.js"></script>
+ 
+        <!-- The app library -->
+        <script src="app.module.js"></script>
+        <script src="app.config.js"></script>
+        <script src="candidate-list/candidate-list.module.js"></script>        
+        <script src="candidate-list/candidate-list.component.js"></script>
+        <script src="candidate-add/candidate-add.module.js"></script>        
+        <script src="candidate-add/candidate-add.component.js"></script>        
+        <script src="candidate-detail/candidate-detail.module.js"></script>        
+        <script src="candidate-detail/candidate-detail.component.js"></script>
+        <script src="property-owner-add/property-owner-add.module.js"></script>
+        <script src="property-owner-add/property-owner-add.component.js"></script>
+        <script src="property-owner-list/property-owner-list.module.js"></script>
+        <script src="property-owner-list/property-owner-list.component.js"></script>
+        <script src="property-owner-detail/property-owner-detail.module.js"></script>
+        <script src="property-owner-detail/property-owner-detail.component.js"></script>
+        <script src="property-portfolio-list/property-portfolio-list.module.js"></script>
+        <script src="property-portfolio-list/property-portfolio-list.component.js"></script>
+        <script src="property-portfolio-add/property-portfolio-add.module.js"></script>
+        <script src="property-portfolio-add/property-portfolio-add.component.js"></script>         
+ 
+    </head>
+    <body ng-app="propertyManagementApp" >
+        <div ng-controller="AppNavCtrl" >
+              <nav class="navbar navbar-default" id="{{active}}" >
+                <div class="container-fluid" ">
+                    <div class="navbar-header">
+                        <a class="navbar-brand"  href ="#">CSCI-362 Property Management</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="candidate" ><a href="#!candidateadd" ng-click="active='candidate'">New Applicants</a></li>
+                        <li class="business"><a href="#!property-owners" ng-click="active='business'">Business</a></li>
+                        <li class="management"><a href="#!candidates" ng-click="active='management'">Management</a></li>
+                        <li class="investors"><a href="#!property-owneradd" ng-click="active='investors'">Investors</a></li>                                
+                        
+                    </ul>                    
+ 
+                </div>
+            </nav>
+            <div class="view-container">
+                <div ng-view class="view-frame"></div>
+            </div>
+        </div>
+<img src="D:\Documents\Schoolwork\Programming\Software Engineering\Apartment Website\Text layout1.png" width="500" height="337">
+<p style="background-image:url('https://s15-us2.startpage.com/cgi-bin/serveimage?url=https:%2F%2Fwww.cgstudio.com%2Fimgd%2Fl%2F7%2F582dfaf3a702482b7e8b4567%2F4193-apartment-house-156.png&sp=5c9bc2ea6a0cfdfc675abac66cf721f1')"> 
+</p>
+    </body>
+</html>
+

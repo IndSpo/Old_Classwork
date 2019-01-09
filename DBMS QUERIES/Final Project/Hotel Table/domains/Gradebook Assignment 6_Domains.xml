@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Gradebook Assignment 6_Domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_10_2_0" id="4DFDA220-8E9A-D10C-FC6F-565AF7A50236">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 13:36:37 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT026</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30" id="671D3CED-40C3-9923-FE06-2B3C72C4212C">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 13:34:28 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>30</dataTypeSize>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15v1" id="6C0B65CA-B775-51C7-81E3-E50DDFF1AF91">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 14:49:14 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>15</dataTypeSize>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0v1" id="7E332505-6E5C-B8C2-E20D-18048CA8998A">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 14:49:14 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_30v1" id="836D6887-0FD8-B647-D2AF-2515D8BE38AA">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 14:49:14 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>30</dataTypeSize>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_0v1" id="84815084-A8CC-EE7A-C1D4-58911505C032">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 14:49:14 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_0" id="977FD544-A8BE-CCE1-AEA2-5011B7DF8E1B">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 13:36:37 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DECIMAL_10_2_0v1" id="9911DE7B-0AF3-8B40-C592-94608AAACF7D">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 14:49:14 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>10</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <dataTypeSize>0</dataTypeSize>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT026</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="9B00889D-74FF-3668-A1F3-B1EAAA8395AE">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 13:36:37 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="AAC103EE-7303-3ABA-681A-E9B219D705E0">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 13:34:28 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15" id="B545E784-1A02-9111-0EA3-5C405DF73349">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 13:36:37 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>0</dataTypePrecision>
+         <dataTypeScale>0</dataTypeScale>
+         <dataTypeSize>15</dataTypeSize>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0v1" id="B9E70249-E000-04F9-1E22-D45B5658620E">
+         <createdBy>India</createdBy>
+         <createdTime>2018-07-09 14:49:14 UTC</createdTime>
+         <ownerDesignName>project</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Gradebook Assignment 6_Domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC187548-487E-4A10-81FF-A30EB7802F66" containerWithKeyObject="20B530C5-CCE8-7192-3FC1-497F9498217C" localFKIndex="E3D739CE-3AAC-668E-8248-A573D36ECBCF" name="FK_StudentEnrolls">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>2647E23E-7AAF-3735-EC69-196CA5AD1A46</importedID>
+<referredTableLongName>Students</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1E7DA28C-4D2F-56DA-F627-F25CD1DF421E</referredTableID>
+<keyObject>0484F0C3-E6CC-AFFA-FFCF-511FCE1429B6</keyObject>
+<referredKeyID>0484F0C3-E6CC-AFFA-FFCF-511FCE1429B6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SSID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

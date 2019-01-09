@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="58F51AD8-E937-006A-E981-EF0D0912A999" name="Hotel database(4)" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

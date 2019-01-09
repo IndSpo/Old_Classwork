@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7384B04-DC05-87F4-C74C-2FF628ED9FBB" name="Catalog">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:27 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>EB119782-BFE2-67D4-1B1E-A70B476B6BA8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CNO" id="92228009-61EB-D954-711F-B055059E6AF7">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>2B0F44A0-ED4C-D4F4-632B-079D6A8214EC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CTITLE" id="26504E93-6EB2-8546-BB79-1E564C08965F">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>99048751-2F09-1CE7-4151-006A84085C6C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>671D3CED-40C3-9923-FE06-2B3C72C4212C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="065652EF-6790-E08A-C7B2-473F6ED581CB" name="Catalog_PK">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>0FB71031-F92B-D331-1224-E5ECA692350F</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92228009-61EB-D954-711F-B055059E6AF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E4428A75-279F-AA9A-9A24-53FDEE2B3999" containerWithKeyObject="749B5F39-E5A4-D0B9-0FB2-AAF8A6F3A005" localFKIndex="C79995E2-1E36-6CF7-A9AF-23C35F1E5CFF" name="GUESTS_ROOMS_FK">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:51:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<referredTableLongName>ROOMS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A55540A6-57D9-CC47-B83C-B6A9BE38684E</referredTableID>
+<keyObject>15A5675C-B920-1D35-CC8D-00C6B798EC88</keyObject>
+<referredKeyID>15A5675C-B920-1D35-CC8D-00C6B798EC88</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>room_no</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

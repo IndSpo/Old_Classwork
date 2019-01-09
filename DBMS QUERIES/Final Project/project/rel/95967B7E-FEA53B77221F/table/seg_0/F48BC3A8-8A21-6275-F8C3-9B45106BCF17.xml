@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F48BC3A8-8A21-6275-F8C3-9B45106BCF17" name="BOOKINGS">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="arrival_date" id="5CF14251-682E-556B-B605-7FEE9CB2BDC0">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9B00889D-74FF-3668-A1F3-B1EAAA8395AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="departure_date" id="0A47B8A9-ACE2-3508-0083-F03CB9EC115F">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>9B00889D-74FF-3668-A1F3-B1EAAA8395AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="guest_no" id="11E3D012-22D4-14E1-FFFD-7D22E205BD70">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hotel_no" id="E1822C30-0647-8D39-9FEB-79B1B6C64F06">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOTEL_hotel_no" id="0E14BBAB-780F-BFBA-8B0F-D0AA95F54FA7">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:51:56 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC31315C-596F-5C73-4881-B7A10D0080A3" referredColumn="553E33E3-9789-97C5-3419-76686F4C7376"/>
+</associations>
+</Column>
+<Column name="HOTEL_hotel_name" id="858AF091-6D7F-ACA2-23F9-A72658B9EADE">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:51:56 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>977FD544-A8BE-CCE1-AEA2-5011B7DF8E1B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC31315C-596F-5C73-4881-B7A10D0080A3" referredColumn="5A318D47-095D-8398-E7DE-D7D7E328B89A"/>
+</associations>
+</Column>
+<Column name="HOTEL_city_location" id="6A557A75-12B8-B225-3DC6-45DB5B69A4E0">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:51:56 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>977FD544-A8BE-CCE1-AEA2-5011B7DF8E1B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC31315C-596F-5C73-4881-B7A10D0080A3" referredColumn="F0E9A384-0534-818D-951D-BBE4C2279DB3"/>
+</associations>
+</Column>
+<Column name="HOTEL_no_of_rooms" id="E6B8077F-62D7-ECFE-453A-58129879745C">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:51:56 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC31315C-596F-5C73-4881-B7A10D0080A3" referredColumn="74EC3FCF-7C75-E2FD-1FA7-9D62ADBAC57E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21D9AE71-4CC9-FECE-E151-DCD1FA2DB8B0" name="BOOKINGS_PK">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CF14251-682E-556B-B605-7FEE9CB2BDC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28A89FC7-0BED-B05D-71D9-8DEC211B3796" name="BOOKINGS_HOTEL_FK">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:51:56 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E14BBAB-780F-BFBA-8B0F-D0AA95F54FA7"/>
+<colUsage columnID="858AF091-6D7F-ACA2-23F9-A72658B9EADE"/>
+<colUsage columnID="6A557A75-12B8-B225-3DC6-45DB5B69A4E0"/>
+<colUsage columnID="E6B8077F-62D7-ECFE-453A-58129879745C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20D9B10F-F7BF-0333-9DA6-A41B0D3F95A8" name="Courses">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>4B49E54C-EFCF-62D9-6E7F-8F9773AD0E48</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TERM" id="30A8962F-7A16-53C6-172D-677247A66B13">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>5AE80114-8C66-9332-B3CE-E3F15DAD7D01</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>671D3CED-40C3-9923-FE06-2B3C72C4212C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEC_NO" id="C5DCD9EC-8049-B2CF-8FE3-360A24C53177">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>D96CFD0B-58BC-D2D1-6367-38973A149AB0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CNO" id="4E3738DD-E043-1726-8742-214CDAC041A4">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>3D2BD9E1-003B-D1B4-1ABE-B7EC2BCC7A30</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AC9EF8D-A7D9-693A-1AF4-D3411767CC4B" referredColumn="92228009-61EB-D954-711F-B055059E6AF7"/>
+</associations>
+</Column>
+<Column name="A" id="48585CC9-9FA2-78BE-E8DA-BDA61BC933B2">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>743A3B94-5B43-7271-3FDF-5DD5FDE04179</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B" id="05C321B0-8E63-A2D4-19C5-F14D28280972">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>57E971B0-9373-5F73-010F-9A2E23293850</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="C" id="8D81C9A7-26BC-3C2E-2862-55F0B7A1DC01">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>CBF8645C-7C83-619E-62A5-539FE129270F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="D" id="BAB378A8-96C2-373B-39FE-5F434357A783">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>F9206B6A-A413-8F0F-698E-932CF60B2B55</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37290373-189D-918F-7776-29719864880E" name="Courses_PK">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>51423780-E96B-A2B8-7F60-0666C7FC9B5A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30A8962F-7A16-53C6-172D-677247A66B13"/>
+<colUsage columnID="C5DCD9EC-8049-B2CF-8FE3-360A24C53177"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37933C56-3558-10E3-5375-32A6DF2DF72D" name="FK_CatalogCourses">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E3738DD-E043-1726-8742-214CDAC041A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

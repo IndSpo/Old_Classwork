@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HOTEL" directorySegmentName="seg_0" id="27824FAC-6D8B-5F84-8ADE-B8599CA4D75A">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:20:42 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="hotel_no" id="44F9DACF-FEFB-41F8-2A2D-353F58CAAF6B">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:20:42 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="no_of_rooms" id="903513F5-17C9-1B44-C3C9-49B3EC7B7833">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:20:42 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="city_location" id="CA1BEAC0-B75D-836C-3E72-887CFF092AFD">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:20:42 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="hotel_name" id="CB0DE2A3-39A6-2A09-B7C3-F4A265903C3E">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:20:42 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HOTEL_PK" id="01B5F394-026A-26DC-8064-6464B2FDCD06">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:20:42 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_1" id="68A3C481-A994-06BA-1680-D6FB13548F03">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:20:42 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

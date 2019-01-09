@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ENROLLS" directorySegmentName="seg_0" id="20B530C5-CCE8-7192-3FC1-497F9498217C">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SEC_NO" id="64FA3616-463C-96F8-3940-C9E3FC1A5502">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SSID" id="A5B8A747-70B8-0B35-B357-844F8138E8A3">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TERM" id="D32BC147-4E0D-04E3-7A73-7891977772D0">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_CoursesEnrolls" id="64622072-09FD-48EA-7AB9-5F284606EE97">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_StudentEnrolls" id="E3D739CE-3AAC-668E-8248-A573D36ECBCF">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ENROLLS_PK" id="CC25A228-0512-943E-7833-FB9CB067A989">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

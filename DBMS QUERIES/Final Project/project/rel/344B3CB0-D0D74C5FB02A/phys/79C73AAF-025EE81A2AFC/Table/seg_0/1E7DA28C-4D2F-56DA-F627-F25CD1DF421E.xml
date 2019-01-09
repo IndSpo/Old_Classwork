@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Students" directorySegmentName="seg_0" id="1E7DA28C-4D2F-56DA-F627-F25CD1DF421E">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FNAME" id="65F1C9F7-5F39-5C04-796F-EFF031145E65">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LNAME" id="9ABEA4C8-42E1-8ED8-362D-7932E1B461B5">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MINIT" id="C3A2A17E-FD59-46B2-B0FC-13A9007FDACC">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SSID" id="E5A7C28D-BE30-9593-F427-A148D6C927F2">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Students_PK" id="0484F0C3-E6CC-AFFA-FFCF-511FCE1429B6">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:36:04 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

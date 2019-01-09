@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Hotel database(3)" id="9BDC3765-E4E0-4335-8D92-69A8644D77DD">
+<createdBy>India</createdBy>
+<modifiedBy>India</modifiedBy>
+<createdTime>2018-07-09 14:22:50 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="0B80740D-E3D8-5C37-C6DB-3720153A67CC" otype="Table" vid="CE32A167-6965-A3CF-D740-B643F1400A58">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="475" y="20" width="192" height="116"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="271959B8-087E-E706-4314-A16551DE6FA0" otype="Table" vid="C10584CD-FCA1-0B39-41C9-75D07878E2F6">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="247" y="20" width="178" height="130"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="7058AD08-54B1-7515-0006-69ACEAAC1221" otype="Table" vid="2BF52707-3D98-2438-05B5-1CEE49457026">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="177" height="102"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="7DF8735F-2B32-36C1-22C2-3A1E7D05033A" otype="Table" vid="17F48338-0808-5BF1-9D29-8CF05E9FF909">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="300" width="183" height="88"/>
+</OView>
+</objectViews>
+</Diagram>

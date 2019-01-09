@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Hotel database(3)" id="88EE2BD3-855B-B2FB-A65D-E477070FD021" mainViewID="9BDC3765-E4E0-4335-8D92-69A8644D77DD">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:22:41 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Hotel database.sql</fileName>
+<pathName>D:\Documents\Schoolwork\Programming\Database Management\DBMS QUERIES\Final Project</pathName>
+<dbType>14</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

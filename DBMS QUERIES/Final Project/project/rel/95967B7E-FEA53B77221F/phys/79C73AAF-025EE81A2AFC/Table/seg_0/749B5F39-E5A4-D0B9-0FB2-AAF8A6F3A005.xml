@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="GUESTS" directorySegmentName="seg_0" id="749B5F39-E5A4-D0B9-0FB2-AAF8A6F3A005">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Fname" id="02F4410B-DE32-36CB-51A2-C774052FCF76">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Address" id="06C79278-38A0-D50D-3A36-C9B2AB5500D3">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="room_no" id="0FF37137-0FC9-2B2F-5968-CE026B552B04">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Lname" id="B53DD8AD-9587-B6F2-84D4-09CBF7630AED">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Card_no" id="C06CC900-DB2A-1E85-E5BB-B20E46634E5A">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="guest_no" id="ED46998B-1D30-C41D-61C8-1DBD704F69FE">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROOMS_room_no" id="F5A5BB71-D066-949F-83A2-25E9FDB8111E">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:51:16 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKINGS_arrival_date" id="FC9C379F-FAAA-DB7F-32C0-9B57BCD27061">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:52:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GUESTS_BOOKINGS_FK" id="9CC1D8CA-0EFE-1524-4A25-FDC919B25EA2">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:52:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="GUESTS_ROOMS_FK" id="C79995E2-1E36-6CF7-A9AF-23C35F1E5CFF">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:51:15 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GUESTS_PK" id="C73C3D9A-0CB4-70E9-1FFA-F0F06DFE9602">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:49:14 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

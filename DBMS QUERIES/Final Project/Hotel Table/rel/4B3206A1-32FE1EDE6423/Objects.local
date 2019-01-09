@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="453320CB-CE49-32E8-69D9-52393B024380" name="BOOKINGS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="4B3206A1-5474-6ED9-3D7D-32FE1EDE6423" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="D1BFA589-08AC-8C75-B611-0D6AFDD1B43F" name="GUESTS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="4B3206A1-5474-6ED9-3D7D-32FE1EDE6423" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="23BDACE9-909F-462B-BF73-0024E0EA5CEE" name="HOTEL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="4B3206A1-5474-6ED9-3D7D-32FE1EDE6423" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="032E9CAF-F62A-1AFF-1B3C-93390D3F0C3A" name="ROOMS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="4B3206A1-5474-6ED9-3D7D-32FE1EDE6423" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

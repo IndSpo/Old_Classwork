@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Hotel Table" id="44089EA3-E1D7-1730-46CD-5FC754D4FE23" version="3.5">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:33:14 UTC</createdTime>
+<ownerDesignName>Hotel Table</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>44089EA3-E1D7-1730-46CD-5FC754D4FE23</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="ED779896-A645-15BC-63E0-26212539BEB1">
+<designStoragePath>D:\Gradebook Assignment 6</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="29F44C7A-6AC0-F6F3-5455-A123A9525CFF">
+<designStoragePath>D:\Gradebook Assignment 6</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9D264385-55FC-0856-5B56-1B2F846BA5E2">
+<designStoragePath>D:\Hotel database</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="9BAFF8DE-A683-B4D2-ABCF-18E4DAD309AE">
+<designStoragePath>D:\Hotel database</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CF0A812B-7B9E-9C16-FFA2-3B1A891C9A89">
+<designStoragePath>D:\Hotel database</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1BB7711B-BA2E-7779-66E1-E9BA432AD2F5">
+<designStoragePath>D:\Hotel database</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7DC45869-BFE0-5133-D294-677F66594289">
+<designStoragePath>D:\Hotel database</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2E4324E6-116F-B353-6008-1DEC8A52409F">
+<designStoragePath>D:\Hotel database</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

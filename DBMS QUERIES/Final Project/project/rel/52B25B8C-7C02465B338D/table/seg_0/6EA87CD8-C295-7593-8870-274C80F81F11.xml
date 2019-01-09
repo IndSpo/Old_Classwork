@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EA87CD8-C295-7593-8870-274C80F81F11" name="ENROLLS">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>AE99D867-ED7B-20D1-C56B-781508D36E6B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SSID" id="246E4B8D-A3D7-89BD-F08E-25CDE928D9BA">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>DB8C6459-9CCC-67A5-06BC-1D45A8839E99</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC0A162E-53B8-29B1-05BA-2991A8B3A69A" referredColumn="6DCB8AFB-189E-84B9-A975-A7B0F1868735"/>
+</associations>
+</Column>
+<Column name="TERM" id="06BA345D-E160-E929-1D63-C1056AA79F2C">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>CB6AFDBD-1317-F463-6B10-FFC54B627DC6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>671D3CED-40C3-9923-FE06-2B3C72C4212C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AA09E07-2C04-F946-A88D-C56D2DD1CDC1" referredColumn="30A8962F-7A16-53C6-172D-677247A66B13"/>
+</associations>
+</Column>
+<Column name="SEC_NO" id="D40425E7-AF30-5CC9-8483-6390AD105B47">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>AAB5E5C1-D108-A19C-8EFB-394918585ADF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9AA09E07-2C04-F946-A88D-C56D2DD1CDC1" referredColumn="C5DCD9EC-8049-B2CF-8FE3-360A24C53177"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90ECD2F0-5D50-993F-9632-D52F50729EEA" name="ENROLLS_PK">
+<sourceDDLFile>Gradebook Assignment 6.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>553B145B-3439-D597-82ED-ABE10E517ECB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="246E4B8D-A3D7-89BD-F08E-25CDE928D9BA"/>
+<colUsage columnID="06BA345D-E160-E929-1D63-C1056AA79F2C"/>
+<colUsage columnID="D40425E7-AF30-5CC9-8483-6390AD105B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D4AF7CD-FEFA-FF84-B099-DB08155AE78D" name="FK_CoursesEnrolls">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06BA345D-E160-E929-1D63-C1056AA79F2C"/>
+<colUsage columnID="D40425E7-AF30-5CC9-8483-6390AD105B47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D761B801-1B79-A51B-70B9-4EC09EF7C87B" name="FK_StudentEnrolls">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:34:28 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="246E4B8D-A3D7-89BD-F08E-25CDE928D9BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

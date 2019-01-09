@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="GUESTS" directorySegmentName="seg_0" id="7B269C83-7175-4101-57BF-70FCFFD3E478">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:37:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Fname" id="23346746-DC5C-08D7-33BE-FBFBE5B8C5BA">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:37:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Lname" id="677D3702-20B9-5320-188A-BBDA393CC3B4">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:37:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Address" id="9B3EA5F7-1BA2-1F8D-E324-94CE3CD0AE74">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:37:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="room_no" id="B0336E04-B22B-70D2-8038-C2B8DCA081FC">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:37:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="guest_no" id="B1490456-B87F-E995-65C9-49B27E819418">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:37:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Card_no" id="F413CE51-3A81-07B9-3124-80A3908E7031">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:37:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GUESTS_PK" id="1AFD2FFD-86B6-4606-A3BB-97E3B1FD1F63">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:37:09 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

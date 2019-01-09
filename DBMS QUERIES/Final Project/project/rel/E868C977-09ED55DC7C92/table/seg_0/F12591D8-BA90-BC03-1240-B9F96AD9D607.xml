@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F12591D8-BA90-BC03-1240-B9F96AD9D607" name="ROOMS">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:21:06 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>3794C98F-2A66-842F-6FE3-3C4C7720FEC1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="room_no" id="2A6D391E-17B6-F47B-0B8D-29F94F051602">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:21:06 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>78EF67DA-13F6-D4F3-6A04-F73605CFC9EC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>AAC103EE-7303-3ABA-681A-E9B219D705E0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="room_type" id="C3609436-8002-2F80-7B14-1F20842F5BA6">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:21:06 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>0EDD6F58-8C60-A052-A4A9-8660872F255E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>977FD544-A8BE-CCE1-AEA2-5011B7DF8E1B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price" id="9C36014A-2103-6D3F-8196-1C34CF7CE9FC">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:21:06 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>E94CB742-3A49-8F83-287D-4A79391469A0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>4DFDA220-8E9A-D10C-FC6F-565AF7A50236</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9693BA85-69D9-ABA5-CF1E-BE3163DBA385" name="ROOMS_PK">
+<sourceDDLFile>Hotel database.sql</sourceDDLFile>
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 14:21:06 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<importedID>D9FFE285-D359-808B-1DE4-ECE0E26EEABF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A6D391E-17B6-F47B-0B8D-29F94F051602"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

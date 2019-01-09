@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Catalog" directorySegmentName="seg_0" id="A7384B04-DC05-87F4-C74C-2FF628ED9FBB">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:33:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CTITLE" id="26504E93-6EB2-8546-BB79-1E564C08965F">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:33:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CNO" id="92228009-61EB-D954-711F-B055059E6AF7">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:33:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Catalog_PK" id="065652EF-6790-E08A-C7B2-473F6ED581CB">
+<createdBy>India</createdBy>
+<createdTime>2018-07-09 13:33:37 UTC</createdTime>
+<ownerDesignName>project</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
